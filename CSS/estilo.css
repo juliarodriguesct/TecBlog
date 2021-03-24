@@ -1,0 +1,233 @@
+* {
+	margin: 0; 
+	padding: 0; 
+}
+
+
+body {
+	background: #f2f2f2 url('../Imagens/fundo.png') no-repeat fixed center bottom;
+	color: #304468;
+	font-size: 1em; /* 16px */
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+
+}
+
+
+#cabecalho {
+	background: #96BBD0 url('../Imagens/textura.png');
+	box-shadow: 0px 10px 50px 100px #96BBD0; /* Sintaxe: 'box-shadow: h-shadow v-shadow blur spread color inset;' */
+
+;
+	padding: 10px 0px 10px 0px; 
+	text-align: center; 
+}
+
+#logo {
+	padding: 10px; 
+}
+
+#menu {
+	color: #96BBD0;
+	margin: 10px 0px 0px 0px;
+	padding: 15px 20px 15px 20px; 
+	background: white;
+	box-shadow: inset 0 0 0.5em #6C7277;
+	border-radius: 10px;
+	font-size: 18px;
+	font-variant: small-caps;
+	font-weight: bold;
+	display: inline-block;
+}
+
+#principal {
+	width: 920px;
+	margin: 10px auto;
+}
+
+#formata-logo-tec {
+	color: #f2f2f2; 
+	border: 1px solid #96BBD0; 
+	background-color: #304468;
+	padding: 1px 5px 1px 5px; 
+	box-shadow: inset 0 0 0.5em #5094D8;
+}
+
+#formata-logo-blog {
+	background: #f2f2f2;
+	border: 1px solid #96BBD0; 
+	padding: 1px 5px 1px 5px; 
+	
+}
+
+#conteudo {
+	width: 660px; 
+	float: left;
+}
+
+#lateral {
+	width: 240px;
+	float: right;
+}
+
+.conteudo-lateral{
+	background: white;
+	box-shadow: 0 0 1em #96BBD0;
+	border: 1px solid #96BBD0;		
+	border-radius: 10px;
+	padding: 20px;
+	margin: 0px 0px 15px 0px;
+
+}
+
+.postagem-lateral{
+	font-size: 0.8em;
+	text-align: justify;
+
+}
+
+.titulo-conteudo-lateral{
+	background: #96BBD0;
+	text-align: center;
+	font-size: 17px;
+	padding: 2px;
+	margin: 0px 0px 12px 0px;
+	border-radius: 10px;
+
+}
+
+#mais-procurados{
+	font-size: 0.9em;
+}
+
+.postagem {
+	background: white; 
+	text-align: justify;
+	border: 1px solid #96BBD0;
+	box-shadow: 0 0 1em #96BBD0;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 0px 0px 20px 0px;
+
+}
+
+.titulo-postagem{
+	font-size: 23px;
+	margin: 0px 0px 2px 0px;
+
+}
+
+.data-postagem{
+	font-size: 0.8em;
+	background: #96BBD0;
+	display: inline-block; /* 'span' só aceita margem horizontal, pois é um elemento inline. Solução: Transformar em elemento inline-block; */
+	margin: 0px 0px 10px 0px; 
+	padding: 2px 10px;
+	border-radius: 10px;
+ 
+}
+
+#rodape {
+	background: #96BBD0;
+	padding: 15px;
+	margin: 10px;
+	font-variant: small-caps;
+	font-weight: bold;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#assinatura{
+	color: white;
+	font-variant: normal;
+	font-weight: normal;
+}
+
+.clear {
+	clear: both;
+}
+
+
+h1{
+	color: #304468; 
+	font-size: 2.5em; 
+}
+
+p{
+	padding: 10px;
+}
+
+hr{
+	margin: 10px 0px;
+}
+
+.leia-mais-postagem {
+	color: #96BBD0;
+	margin: 2px 0px 0px 490px;
+}
+
+.leia-mais-lateral {
+	color: #96BBD0;
+	margin: 2px 0px 0px 100px;
+}
+
+a {
+	padding: 5px 10px;
+	text-decoration: none; 
+}
+
+a:link {
+	color: #96BBD0;
+}
+
+
+a:visited{
+	color: #96BBD0;
+}
+
+a:hover{
+	color: #304468;
+	background: none; 
+	box-shadow: inset 0 0 0.5em #4A75A0;
+	border-radius: 10px;
+	padding: 5px 15px; 
+	border: 1px solid #96BBD0;
+}
+
+a:active{
+	color: #304468;
+}
+
+
+#cabecalho a:link {
+	color: #304468;
+}
+
+
+#cabecalho a:visited{
+	color: #304468;
+}
+
+#cabecalho a:hover{
+	color: #f2f2f2;
+	background: #96BBD0; 
+	box-shadow: inset 0 0 0.5em #4A75A0;
+	border-radius: 10px;
+	padding: 5px 15px; 
+	border: 1px solid #96BBD0;
+}
+
+#cabecalho a:active{
+	color: #304468;
+}
+
+
+.leia-mais-lateral a:hover, #mais-procurados a:hover{
+	color: #304468;
+	background: none; 
+	box-shadow: none;
+	border-radius: 10px;
+	padding: 5px 15px; 
+	border: none;
+}
+
+
